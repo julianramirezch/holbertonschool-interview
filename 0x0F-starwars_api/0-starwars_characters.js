@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// prints all characters of a Star Wars movie
 const argv = process.argv;
 const urlFilm = 'https://swapi-api.hbtn.io/api/films/';
 const urlMovie = `${urlFilm}${argv[2]}/`;
